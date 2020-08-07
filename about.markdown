@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I am currently an undergraduate student at CU Boulder studying to receive my BS in Computer Science, with a minor in Technology, Art at Media.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I'm interested in exploring the ethics of technology use and creation. I want to foster a culture of personal responsibility in computer science that encourages programmers to ask where their code is being used and what impact it has on its users. I'm passionate about changing the culture of computer science to create welcoming spaces for women and [BIPOC](https://www.nytimes.com/article/what-is-bipoc.html) in research and industry.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+I also adore art I've been training in singing for more than a decade. I love swing dancing, and helped run [CU Boulder Swing Dance](https://www.facebook.com/cuswingdance/) in 2019-2020. I'm in love with film photography, and I frustrate my landlord and parents alike with my whimsical dabblings in painting, from oils to spray paint. 

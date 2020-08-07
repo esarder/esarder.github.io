@@ -1,0 +1,5 @@
+---
+title: Paint
+---
+
+Paint placeholder.
