@@ -35,6 +35,8 @@ plugins:
 collections:
   art_mediums:
     output: true
+    
+
 
 
 # Exclude from processing.
