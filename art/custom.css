@@ -31,16 +31,12 @@
   justify-content: center;
   align-items: stretch;
 
-  height: 100%;
+  height: 550px;
   width: unit( 100 + (@offsetSize * 2),%);
   margin: 0 -(@offsetSize);
   visibility: hidden;
 }
 
-.article {
-  width: 100%;
-  background: blue;
-}
 
 .panel {
   display: inline-block;

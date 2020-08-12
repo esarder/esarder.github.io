@@ -9,23 +9,11 @@ permalink: /art/
 <style>
 
 .wrapper {
-  max-width: calc(#{$content-width} - (#{$spacing-unit}));
-  margin-right: 30px;
-  margin-left: 30px;
-  padding-right: $spacing-unit / 2;
-  padding-left: $spacing-unit / 2;
-  @extend %clearfix;
-
-  @media screen and (min-width: $on-large) {
-    max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-  }
+  max-width: 100%;
+  <!-- height: 100%; -->
 }
 
-article {
-  width: 1400px;
-}
+
 </style>
 
 
@@ -51,12 +39,6 @@ article {
     </a>
   </div>
 </div>
-
-
-
-MEOW
-
-
 
 <!-- <div class="container">
   <div id="music" class="section">
