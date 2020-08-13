@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Woodbine Falls | Nye, MT | August 2019"
+title:  "Woodbine Falls | Nye, MT"
 date:   2020-08-11 23:05:58 -0600
 category: art
 tags: photography
