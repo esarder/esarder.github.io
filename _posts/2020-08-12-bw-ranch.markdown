@@ -1,0 +1,38 @@
+---
+layout: post
+title:  "Sanders Ranch | Big Timber, MT | August 2019"
+date:   2020-08-12 23:41:15 -0600
+category: art
+tags: photography
+---
+
+
+<img src="/photos/field_kevin2.jpg" alt="field_kevin2" height="600" style="padding:5px" class="center"/>
+
+<img src="/photos/sweet_momma.jpg" alt="sweet_momma" height="600" style="padding:5px"/>
+<img src="/photos/tractor_tutelage.jpg" alt="tractor_tutelage" width="600" style="padding:5px"/>
+
+<img src="/photos/keving_on_the_porch.jpg" alt="keving_on_the_porch" width="700" style="padding:5px" class="center"/>
+
+<img src="/photos/vertical_machinery.jpg" alt="vertical_machinery" height="600" style="padding:5px"/>
+<img src="/photos/geometry_at_work.jpg" alt="geometry_at_work" width="600" style="padding:5px"/>
+
+<img src="/photos/tractor.jpg" alt="tractor" width="600" style="padding:5px" class="center"/>
+
+<img src="/photos/hand_in_mine.jpg" alt="hand_in_mine" width="600" style="padding:5px"/>
+<img src="/photos/path_du_kev.jpg" alt="path_du_kev" height="600" style="padding:5px"/>
+
+
+<img src="/photos/branching_sun.jpg" alt="branching_sun" style="padding:5px" class="center"/>
+
+Photos taken at the Sanders Ranch in Big Timber, Montana, in August 2019.
+
+
+<style>
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  }
+</style>

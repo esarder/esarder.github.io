@@ -5,5 +5,5 @@ permalink: /art/photography/
 ---
 
 {% for post in site.tags.photography %}
- <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
+ <li> <a href="{{ post.url }}">{{ post.title }}</a> &nbsp; <span>{{ post.date | date_to_string }}</span> </li>
 {% endfor %}
