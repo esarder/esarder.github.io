@@ -10,13 +10,13 @@ layout: home
 
 <h1 style="text-align:center; padding-top: 10px; font-weight:350;" class="home-header">Ella Sarder</h1>
 
-<div style="padding: 0px 100px 0px 100px">
+<div class="wrapper">
   <p style="font-size:18px"> Ella is a student at the University of Colorado Boulder studying to receive her Bachelor of Science in Computer Science and a minor in Creative Technology and Design. She is interested in the ethics of how technology is developed and used, the benefits and repercussions of social media, and in teaching a more comprehensive basic understanding of technology to the general public. Ella strives to create a culture of personal responsibility among programmers for the application and possible consequences of the code they write.</p>
 </div>
 
 
 {%- if site.posts.size > 0 -%}
-<div style="padding: 30px 100px 0px 100px">
+<div class="wrapper" style="padding-top:30px">
   <h5 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h5>
   <ul class="post-list">
     {%- for post in site.posts -%}
@@ -58,7 +58,7 @@ layout: home
   }
 
   .post-list-heading {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .post-link {
