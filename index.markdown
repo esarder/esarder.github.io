@@ -4,7 +4,41 @@
 
 layout: home
 ---
-<img src="/photos/storm_acomin.jpg" alt="storm_acomin"  class="center"/>
+<div>
+  <img src="/photos/storm2.jpg" style="height:180px; width:fit-content" alt="storm_acomin"  class="center"/>
+</div>
+
+<h1 style="text-align:center; padding-top: 10px; font-weight:350;" class="home-header">Ella Sarder</h1>
+
+<div style="padding: 0px 100px 0px 100px">
+  <p style="font-size:18px"> Ella is a student at the University of Colorado Boulder studying to receive her Bachelor of Science in Computer Science and a minor in Creative Technology and Design. She is interested in the ethics of how technology is developed and used, the benefits and repercussions of social media, and in teaching a more comprehensive basic understanding of technology to the general public. Ella strives to create a culture of personal responsibility among programmers for the application and possible consequences of the code they write.</p>
+</div>
+
+
+{%- if site.posts.size > 0 -%}
+<div style="padding: 30px 100px 0px 100px">
+  <h5 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h5>
+  <ul class="post-list">
+    {%- for post in site.posts -%}
+    <li>
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <h5>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </h5>
+      {%- if site.show_excerpts -%}
+        {{ post.excerpt }}
+      {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+{%- endif -%}
+</div>
+
 
 
 
@@ -23,6 +57,25 @@ layout: home
     padding-top:16px;
   }
 
+  .post-list-heading {
+    font-size: 24px;
+  }
+
+  .post-link {
+    font-size: 16px;
+  }
+
+  .page-content{
+    padding: 0px 0px 30px 0px;
+  }
+
+
+  .home-header {
+  @include relative-font-size(1.625);
+  font-weight: 300;
+  letter-spacing: -1px;
+
+}
 
 
 </style>
