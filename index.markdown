@@ -4,3 +4,25 @@
 
 layout: home
 ---
+<img src="/photos/storm_acomin.jpg" alt="storm_acomin"  class="center"/>
+
+
+
+
+
+
+<style>
+
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .trigger{
+    padding-top:16px;
+  }
+
+
+
+</style>
