@@ -7,4 +7,18 @@ tags: music
 
 ---
 
-Cartwheel aerial performed with the help of the inimitable [Bum Soo Kim](https://abumsoo.github.io/) while teaching choreography for CU Boulder Swing Dance's performance team, the Jitterbuffs!
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/7C7w3S1tBCM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="center"></iframe>
+
+<br>
+
+<p style="width: 50%" class="center">Cartwheel aerial performed with the help of <a href="https://abumsoo.github.io/">Bum Soo Kim</a> while teaching choreography for CU Boulder Swing Dance's performance team, the Jitterbuffs!</p>
+
+
+<style>
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+</style>
