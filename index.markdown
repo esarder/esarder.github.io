@@ -108,11 +108,15 @@ layout: home
   }
 
   .post-link {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .page-content{
     padding: 0px 0px 30px 0px;
+  }
+
+  p {
+    font-size:18px;
   }
 
 

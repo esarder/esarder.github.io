@@ -6,7 +6,7 @@ permalink: /about/
 
 <div class="row">
   <div class="left col">
-    <img src="/photos/Headshot.png" alt="Headshot" height="400" style="padding:5px"/>
+    <img src="/photos/Headshot.png" alt="Headshot" height="400" style="padding:5px 5px 5px 0px"/>
 
   </div>
     <div class="right col">
@@ -27,6 +27,7 @@ permalink: /about/
   .left {
     width: 40%;
     padding-right: 40px;
+    padding-left:0px;
   }
 
   .right {
@@ -35,6 +36,10 @@ permalink: /about/
 
   .row {
     display: flex;
+  }
+
+  p {
+    font-size: 18px;
   }
 
 </style>

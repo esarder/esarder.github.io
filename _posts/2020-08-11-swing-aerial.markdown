@@ -22,4 +22,8 @@ thumbnail: /photos/cartwheel_thumbnail.png
   margin-left: auto;
   margin-right: auto;
   }
+
+  p{
+    font-size:18px;
+  }
 </style>

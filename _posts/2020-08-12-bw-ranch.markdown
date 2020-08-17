@@ -37,4 +37,8 @@ Photos taken at the Sanders Ranch in Big Timber, Montana, in August 2019.
   margin-right: auto;
 
   }
+
+  p{
+    font-size:18px;
+  }
 </style>

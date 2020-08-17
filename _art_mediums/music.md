@@ -29,6 +29,7 @@ a:hover {
 .text {
   position: absolute;
   top: 50%;
+  text-size: 18px
   left: 50%;
   background-color: rgba(0, 0, 0, 0.85);
   transform: translate(-50%, -50%);
