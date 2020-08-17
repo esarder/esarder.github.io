@@ -4,6 +4,7 @@ title:  "Sanders Ranch | Big Timber, MT"
 date:   2020-08-12 23:41:15 -0600
 category: art
 tags: photography
+thumbnail: /photos/branching_sun.jpg
 ---
 
 

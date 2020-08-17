@@ -14,6 +14,20 @@ layout: home
   <p style="font-size:18px"> Ella is a student at the University of Colorado Boulder studying to receive her Bachelor of Science in Computer Science and a minor in Creative Technology and Design. She is interested in the ethics of how technology is developed and used, the benefits and repercussions of social media, and in teaching a more comprehensive basic understanding of technology to the general public. Ella strives to create a culture of personal responsibility among programmers for the application and possible consequences of the code they write.</p>
 </div>
 
+<br>
+
+<div class="wrapper row">
+  <div class="left col">
+    <a href="resume" class="center rect_border" style="color:white"><span>Resume</span></a>
+  </div>
+
+  <div class="right col">
+    <a href="research" class="center rect_border" style="color:white"><span>Research</span></a>
+  </div>
+</div>
+
+
+
 
 {%- if site.posts.size > 0 -%}
 <div class="wrapper" style="padding-top:30px">
@@ -46,6 +60,38 @@ layout: home
 
 
 <style>
+
+  a span{
+    background-color: #393939;
+    padding: 7px 12px 7px 12px;
+    border-radius: 2px;
+  }
+  .rect_border{
+
+    text-align:center;
+    font-size:20px;
+    color: white;
+  }
+
+  .col {
+    float: left;
+    padding: 10px;
+    vertical-align: middle;  
+
+  }
+
+  .left {
+    width: 50%;
+    padding-right: 40px;
+  }
+
+  .right {
+    width: 50%;
+  }
+
+  .row {
+    display: flex;
+  }
 
   .center {
   display: block;

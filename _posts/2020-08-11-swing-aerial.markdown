@@ -4,6 +4,7 @@ title:  "Swing Dance - Cartwheel Aerial"
 date:   2020-08-12 20:05:58 -0600
 category: art
 tags: music
+thumbnail: /photos/cartwheel_thumbnail.png
 
 ---
 

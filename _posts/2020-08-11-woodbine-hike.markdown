@@ -4,6 +4,7 @@ title:  "Woodbine Falls | Nye, MT"
 date:   2020-08-11 23:05:58 -0600
 category: art
 tags: photography
+thumbnail: /photos/sight_on_the_boulder.jpg
 ---
 
 
