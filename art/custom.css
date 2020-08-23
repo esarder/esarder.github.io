@@ -163,8 +163,10 @@
 /*////////////////////////////////////////*/
 /* Vertical layout */
 
-.panels--stacked {
 
+/* Responsive */
+
+@media (max-width: 550px) {
   .panels__container {
     width: 100%;
     height: unit( 100 + (@offsetSize * 2),%);
@@ -176,50 +178,40 @@
     height: 50%;
     width: 100%;
     transform: translate3d(0, 0, 0);
+  }
 
-    .panel__content {
-      transform: translate3d(0, @offsetSize, 0);
-    }
+  .panel__content {
+    transform: translate3d(0, @offsetSize, 0);
+  }
 
-    &:last-child .panel__content {
-      transform: translate3d(0, -@offsetSize,0);
-    }
+  &:last-child .panel__content {
+    transform: translate3d(0, -@offsetSize,0);
   }
 
     /* Inactive panel */
   &:hover .panel {
     transform: translate3d(0, -@offsetSize, 0);
-
-    .panel__content {
-      transform: translate3d(0, @contentOffset, 0);
-    }
   }
 
   /* Override styles for an inactive panel AFTER the hovered panel */
   & .panel:hover ~ .panel {
     transform: translate3d(0, @offsetSize, 0);
-
-    .panel__content {
-      transform: translate3d(0, -@contentOffset, 0);
-    }
+  }
+  .panel__content {
+    transform: translate3d(0, -@contentOffset, 0);
   }
 
   /* Active panel */
   & .panel:hover {
     transform: translate3d(0, @offsetSize, 0);
 
-    &:last-child { transform: translate3d(0, -@offsetSize, 0); }
 
-    .panel__content {
-      transform: translate3d(0, 0, 0);
-    }
-  }
 }
 
-/* Responsive */
+&:last-child { transform: translate3d(0, -@offsetSize, 0); }
 
-@media (max-width: 550px) {
-  .panels { .panels--stacked; }
+.panel__content {
+  transform: translate3d(0, 0, 0);
 }
 
 /*////////////////////////////////////////*/
