@@ -54,11 +54,6 @@ layout: home
 </div>
 
 
-
-
-
-
-
 <style>
 
   a span{
@@ -82,7 +77,6 @@ layout: home
 
   .left {
     width: 50%;
-    padding-right: 40px;
   }
 
   .right {
