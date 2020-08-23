@@ -21,7 +21,7 @@ thumbnail: /photos/mural_thumbnail.jpg
 
   <div class="right col">
     <figure>
-      <img src="/photos/wide_view_mural.jpg" alt="HIRO Mural" height="400" style="padding:5px" />
+      <img src="/photos/wide_view_mural.jpg" alt="HIRO Mural" class="proj_img1" style="padding:5px" />
       <figcaption style="padding-left:5px">HIRO mural (water bottle for scale)</figcaption>
     </figure>
   </div>
@@ -29,25 +29,25 @@ thumbnail: /photos/mural_thumbnail.jpg
 
 <div class="row">
   <figure>
-    <img src="/photos/projector_mural.jpg" alt="HIRO Mural with projector" height="400" style="padding:10px" />
+    <img src="/photos/projector_mural.jpg" alt="HIRO Mural with projector" class="proj_img1" style="padding:10px" />
     <figcaption style="padding-left:5px">Projector setup</figcaption>
   </figure>
 
   <figure>
-    <img src="/photos/50_mural.jpg" alt="HIRO Mural" height="400" style="padding:10px" />
+    <img src="/photos/50_mural.jpg" alt="HIRO Mural" class="proj_img1" style="padding:10px" />
     <figcaption style="padding-left:5px">Mural progress shot (1)</figcaption>
   </figure>
 </div>
 
 <div class="row">
   <figure>
-    <img src="/photos/75_mural.jpg" alt="HIRO Mural" height="400" style="padding:5px" />
+    <img src="/photos/75_mural.jpg" alt="HIRO Mural" class="proj_img1" style="padding:5px" />
     <figcaption style="padding-left:5px">Mural progress shot (2)</figcaption>
   </figure>
 
 
   <figure>
-    <img src="/photos/close_up_mural.jpg" alt="HIRO Mural" width="500" style="padding:5px" />
+    <img src="/photos/close_up_mural.jpg" alt="HIRO Mural" class="proj_img2" style="padding:5px" />
     <figcaption style="padding-left:5px">HIRO mural close up</figcaption>
   </figure>
 </div>
@@ -59,6 +59,14 @@ thumbnail: /photos/mural_thumbnail.jpg
   display: block;
   margin-left: auto;
   margin-right: auto;
+  }
+
+  .proj_img1 {
+    height: 400px;
+  }
+
+  .proj_img2 {
+    width: 500px;
   }
 
   .row {
@@ -81,6 +89,31 @@ thumbnail: /photos/mural_thumbnail.jpg
 
   p{
     font-size:18px;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .main_page {
+      width:100%;
+    }
+
+    .proj_img1 {
+      height: 300px;
+    }
+
+    .proj_img2 {
+      width: 400px;
+    }
+
+    .row {
+      display: block;
+    }
+
+    .left {
+      width:100%
+    }
+    .right{
+      width:100%;
+    }
   }
 
 </style>
