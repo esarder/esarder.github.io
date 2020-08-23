@@ -18,11 +18,11 @@ layout: home
 
 <div class="wrapper row">
   <div class="left col">
-    <a href="resume" class="center rect_border" style="color:white"><span>Resume</span></a>
+    <a href="resume" class="center rect_border" style="color:white"><span class="back_span">Resume</span></a>
   </div>
 
   <div class="right col">
-    <a href="research" class="center rect_border" style="color:white"><span>Research</span></a>
+    <a href="research" class="center rect_border" style="color:white"><span class="back_span">Research</span></a>
   </div>
 </div>
 
@@ -49,20 +49,19 @@ layout: home
     {%- endfor -%}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 {%- endif -%}
 </div>
 
 
 <style>
 
-  a span{
+  .back_span{
     background-color: #393939;
     padding: 7px 12px 7px 12px;
     border-radius: 2px;
   }
-  .rect_border{
 
+  .rect_border{
     text-align:center;
     font-size:20px;
     color: white;
