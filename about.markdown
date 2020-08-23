@@ -6,7 +6,7 @@ permalink: /about/
 
 <div class="row">
   <div class="left col">
-    <img src="/photos/Headshot.png" alt="Headshot" height="400" style="padding:5px 5px 5px 0px"/>
+    <img class="headshot_img" src="/photos/Headshot.png" alt="Headshot" />
 
   </div>
     <div class="right col">
@@ -19,6 +19,11 @@ permalink: /about/
 </div>
 
 <style>
+  .headshot_img{
+    height: 400px;
+    padding:5px 5px 5px 0px;
+  }
+
   .col {
     float: left;
     padding: 10px;
@@ -41,5 +46,25 @@ permalink: /about/
   p {
     font-size: 18px;
   }
+
+  @media only screen and (max-width: 600px) {
+    .row {
+      display: block;
+    }
+
+    .headshot_img {
+      height: 250px;
+      padding-left: 10px;
+    }
+
+    .left{
+      width:100%
+    }
+
+    .right{
+      width:100%
+    }
+
+
 
 </style>
