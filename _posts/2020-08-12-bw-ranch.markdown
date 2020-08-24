@@ -11,7 +11,7 @@ thumbnail: /photos/branching_sun.jpg
 <img src="/photos/field_kevin2.jpg" alt="field_kevin2" width="800" style="padding:5px" class="center"/>
 
 <img src="/photos/sweet_momma.jpg" alt="sweet_momma" height="600" style="padding:5px"/>
-<img src="/photos/tractor_tutelage.jpg" alt="tractor_tutelage" width="600" style="padding:5px"/>
+<img src="/photos/tractor_tutelage.jpg" alt="tractor_tutelage" width="600" style="padding:5px; float: left"/>
 
 <img src="/photos/keving_on_the_porch.jpg" alt="keving_on_the_porch" width="700" style="padding:5px" class="center"/>
 
