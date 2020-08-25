@@ -14,7 +14,7 @@ permalink: /about/
 
     <p> I'm interested in exploring the ethics of technology use and creation. I want to foster a culture of personal responsibility in computer science that encourages programmers to ask where their code is being used and what impact it has on its users. I'm passionate about changing the culture of computer science to create welcoming spaces for women and <a href="https://www.nytimes.com/article/what-is-bipoc.html">BIPOC</a> in research and industry.</p>
 
-    <p>In my spare time, I do art! I've been training in singing for more than a decade. I love swing dancing, and helped run <a href="https://www.facebook.com/cuswingdance/"> CU Boulder Swing Dance </a> in 2019-2020. I'm in love with film photography, and I frustrate my landlord and parents alike with my whimsical dabblings in painting, from oils to spray paint.</p>
+    <p>In my spare time, I do art! I've been training in singing for more than a decade. I love swing dancing, and helped run <a href="https://www.facebook.com/cuswingdance/"> CU Boulder Swing Dance </a> in 2019-2020. I do film photography, and I frustrate my landlord and parents alike with my whimsical dabblings in painting, from oils to spray paint.</p>
   </div>
 </div>
 

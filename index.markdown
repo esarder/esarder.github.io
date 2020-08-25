@@ -8,10 +8,10 @@ layout: home
   <img src="/photos/storm2.jpg" style="height:180px; width:fit-content" alt="storm_acomin"  class="center"/>
 </div>
 
-<h1 style="text-align:center; padding-top: 10px; font-weight:350;" class="home-header">Ella Sarder</h1>
+<h1 style="text-align:center; padding-top: 10px; font-weight:350; font-size: 40px" class="home-header">Ella Sarder</h1>
 
 <div class="wrapper">
-  <p style="font-size:18px"> Ella is a student at the University of Colorado Boulder studying to receive her Bachelor of Science in Computer Science and a minor in Creative Technology and Design. She is interested in the ethics of how technology is developed and used, the benefits and repercussions of social media, and in teaching a more comprehensive basic understanding of technology to the general public. Ella strives to create a culture of personal responsibility among programmers for the application and possible consequences of the code they write.</p>
+  <p style="font-size:20px"> Ella is a student at the University of Colorado Boulder studying to receive her Bachelor of Science in Computer Science and a minor in Creative Technology and Design. She is interested in the ethics of how technology is developed and used, the benefits and repercussions of social media, and in teaching a more comprehensive basic understanding of technology to the general public. Ella strives to create a culture of personal responsibility among programmers for the application and possible consequences of the code they write.</p>
 </div>
 
 <br>
