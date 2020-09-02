@@ -8,13 +8,13 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li class="p-name">
+          <!-- <li class="p-name">
             {%- if site.author -%}
               {{ site.author | escape }}
             {%- else -%}
               {{ site.title | escape }}
             {%- endif -%}
-            </li>
+            </li> -->
             {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
@@ -25,11 +25,28 @@
         {%- include social.html -%}
       </div>
 
+
       <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
+        <a href='https://ind.ie/ethical-design'><img class="ethical" alt='We practice Ethical Design' src='https://ind.ie/ethical-design/images/ethical-design-badge-small.svg'></a>
       </div>
     </div>
 
   </div>
 
 </footer>
+
+<style>
+  .ethical{
+    display: block;
+    width: 100px;
+    margin: -30px auto auto;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .ethical{
+      width: 100px;
+      margin: auto;
+      display: inline;
+    }
+
+</style>
