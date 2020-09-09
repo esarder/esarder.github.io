@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "Sanders Ranch and The Yellowstone | Big Timber, MT"
+date:   2020-09-09 11:36:02 -0600
+category: art
+tags: photography
+thumbnail: /photos/down_to_the_river.jpg
+---
+
+
+<img src="/photos/back_to_the_hollyhocks.jpg" alt="back_to_the_hollyhocks" width="450" style="padding:5px"/>
+<img src="/photos/happy_girl.jpg" alt="happy_girl" width="600" style="padding:5px"/>
+
+<img src="/photos/dingo_dog.jpg" alt="dingo_dog" width="600" style="padding:5px"/>
+<img src="/photos/sun_on_the_hollyhocks.jpg" alt="sun_on_the_hollyhocks" height="600" style="padding:5px"/>
+
+
+<img src="/photos/playing_with_kevin.jpg" alt="playing_with_kevin" width="600" style="padding:5px"/>
+<img src="/photos/sal_youre_a_hoe.jpg" alt="sal_youre_a_hoe" height="600" style="padding:5px"/>
+
+
+<img src="/photos/down_to_the_river.jpg" class="center" alt="down_to_the_river" width="1000" style="padding:5px"/>
+
+
+Photos taken at the Sanders Ranch and the Yellowstone River in Big Timber, MT in August 2020. Thank you to Greta Sanders, Darlene Sanders, Julie Sanders,  Mike Sanders, Dingo, Kevin, and Maeve for their modeling services.
+
+
+<style>
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  }
+</style>
