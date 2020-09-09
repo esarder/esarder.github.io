@@ -11,8 +11,12 @@ thumbnail: /photos/down_to_the_river.jpg
 <img src="/photos/back_to_the_hollyhocks.jpg" alt="back_to_the_hollyhocks" width="450" style="padding:5px"/>
 <img src="/photos/happy_girl.jpg" alt="happy_girl" width="600" style="padding:5px"/>
 
+<img src="/photos/history_repeats.jpg" class="center" alt="history_repeats" width="600" style="padding:5px"/>
+
+
 <img src="/photos/dingo_dog.jpg" alt="dingo_dog" width="600" style="padding:5px"/>
 <img src="/photos/sun_on_the_hollyhocks.jpg" alt="sun_on_the_hollyhocks" height="600" style="padding:5px"/>
+
 
 
 <img src="/photos/playing_with_kevin.jpg" alt="playing_with_kevin" width="600" style="padding:5px"/>
